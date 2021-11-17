@@ -1,0 +1,9 @@
+name: "Test action"
+description: "Test input parameters"
+inputs:
+  test: # id of input
+    description: "test"
+    required: true
+runs:
+  using: "docker"
+  image: "krewi/test"
