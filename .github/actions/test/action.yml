@@ -6,6 +6,6 @@ inputs:
     required: true
 runs:
   using: "docker"
-  image: "krewi/test"
+  image: "Dockerfile"
   env:
     INPUT_ACTION: ${{ env.INPUT_ACTION }}
