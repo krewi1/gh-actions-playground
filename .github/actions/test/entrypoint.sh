@@ -1,3 +1,4 @@
 echo "---params"
-echo $INPUT_ACTION
+echo $INPUT_TEST
+echo $INPUT_ANOTHER
 echo "---end"

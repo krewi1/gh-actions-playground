@@ -18,3 +18,4 @@ jobs:
         uses: ./.github/actions/test
         with:
           test: "muhehe"
+          another: "muhe"

@@ -4,6 +4,9 @@ inputs:
   test: # id of input
     description: "test"
     required: true
+  another:
+    description: "another"
+    required: true
 runs:
   using: "docker"
   image: "Dockerfile"
